@@ -1,0 +1,14 @@
+tests:
+  smf_display.core:
+    build_only: true
+    tags:
+      - unit_test
+      - display
+      - smf
+    platform_allow: 
+      - native_sim
+    integration_platforms:
+      - native_sim
+    timeout: 60
+    harness: ztest
+    type: unit
